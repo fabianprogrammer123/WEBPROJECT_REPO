@@ -25,7 +25,7 @@ namespace WebPWrecover.Services
         // not using secret keys anymore - now sendgrid Key
         public Task Execute(string apiKey, string subject, string message, string email)
         {
-            var apiKey2 = "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"; // SENDGRID KEY
+            var apiKey2 = ""; // SENDGRID KEY
             var client = new SendGridClient(apiKey2);
             var from = new EmailAddress("presentation-tools@DONOTREPLY", "Presentation-Tools");
             var to = new EmailAddress(email, "Customer");
