@@ -27,7 +27,7 @@ namespace WebPWrecover.Services
         {
             var apiKey2 = ""; // SENDGRID KEY
             var client = new SendGridClient(apiKey2);
-            var from = new EmailAddress("presentation-tools@DONOTREPLY", "Presentation-Tools");
+            var from = new EmailAddress("DONOTREPLY@presentation-tools.com", "Presentation-Tools");
             var to = new EmailAddress(email, "Customer");
             var plainTextContent = message;
             var htmlContent = message;

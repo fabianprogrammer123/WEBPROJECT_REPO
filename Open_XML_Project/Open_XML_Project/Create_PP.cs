@@ -17,7 +17,7 @@ namespace Open_XML_Project
     {
         public void Create_PP_action ()
         {
-            // Server/Computer Link
+            // S/C
             //string filepath = @"D:\Uploaded_Files\OpenXML_PP.pptx";
             //string imagepath = @"D:\Uploaded_Files";
             string filepath = @"C:\Users\EmileMesselken\Desktop\Powerpoint-Project\Insert_pictures_here\OpenXML_PP.pptx";

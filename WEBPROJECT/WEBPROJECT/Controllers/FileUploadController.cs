@@ -25,7 +25,8 @@ namespace WEBPAGE_PROJECT.Controllers
 
                 if (formFile.Length > 0)
                 {
-                    // full path to file in temp location
+                    // S/C
+                    //var filePath = @"D:\Uploaded_Files\pic" + counter.ToString() + ".jpg";
                     var filePath = @"C:\Users\EmileMesselken\Desktop\Powerpoint-Project\Insert_pictures_here\pic" + counter.ToString() + ".jpg";
                     filePaths.Add(filePath);
 
