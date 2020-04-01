@@ -21,4 +21,9 @@
     <ProjectReference Include="..\..\Open_XML_Project\Open_XML_Project\Open_XML_Project.csproj" />
   </ItemGroup>
 
+
+  <ItemGroup>
+    <Folder Include="Content\" />
+  </ItemGroup>
+
 </Project>

@@ -36,7 +36,7 @@ namespace WEBPAGE_PROJECT.Controllers
                     smtp.Port = 587;
 
                     smtp.Credentials = new System.Net.NetworkCredential
-                    ("emile33333@gmail.com", "SP387306058x");
+                    ("emile33333@gmail.com", "");
 
                     smtp.EnableSsl = true;
 
