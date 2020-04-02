@@ -4,26 +4,66 @@
 
     <style>
         body {
-            background-image: url("http://www.birds.com/wp-content/uploads/home/bird4.jpg");
+            /*background-image: url("http://www.birds.com/wp-content/uploads/home/bird4.jpg"); - #25274D*/
+            background-color: White;
         }
 
         h1 {
-            color: blue;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            font-size: 48px;
+            margin-top: 5px;
+            margin-bottom: 0px;
+            text-align: center;
+            font-weight: normal;
+            color: #222;
+        }
+
+        h2 {
+            font-family: "Lucida Grande", Tahoma;
+            font-size: 20px;
+            font-weight: lighter;
+            font-variant: normal;
+            text-transform: uppercase;
+            color: #666666;
+            margin-top: 10px;
+            text-align: center !important;
+            letter-spacing: 0.3em;
+        }
+
+        p {
+            font-family: Georgia, "Times New Roman", Times, serif;
+        }
+
+        input[type=button], input[type=submit], input[type=reset] {
+            background-color: #25274D;
+            font-family: Georgia, "Times New Roman", Times, serif;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        input[type=file] {
+            font-family: Georgia, "Times New Roman", Times, serif;            
         }
 
     </style>
 
     <body>
         <div class="text-center">
-            <h1 class="display-4">Welcome</h1>
-            <p>Upload pictures to create a Powerpoint presentation! <br /> <a href="https://cat-bounce.com/">Click here</a> for more information.</p>
+            <br />
+            <h1>Welcome</h1>
+            <h2>Smart Presentation Solutions</h2>
+            <p><a href="Instructions">How it works</a></p>
             <br />
         </div>
 
         <form method="post" enctype="multipart/form-data" asp-controller="FileUpload" asp-action="Index">
             <div class="form-group">
                 <div class="col-md-10">
-                    <p>Upload one or more files using this form:</p>
+                    <p>Upload your pictures (*.png, *.jpg):</p>
                     <input type="file" name="files" multiple />
                 </div>
             </div>
